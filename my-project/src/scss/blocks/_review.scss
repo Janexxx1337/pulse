@@ -1,0 +1,45 @@
+.review {
+    padding: 0px 0 71px 0;
+    position: relative;
+
+  
+
+    &__title {
+        font-size: 30px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #0d0d0d;
+        text-align: center;
+    }
+
+    &__cards {
+        margin-top: 70px;
+    }
+
+
+ &__card__info {
+  width: 653px;
+    transform: translate(231px, -167px);}
+
+
+ &__card__name {
+    font-size: 18px;
+    font-weight: 700;
+    color: #0d0d0d;
+   }
+
+   &__card__goals {
+    font-size: 14px;
+    font-weight: 300;
+    color: #646464;
+    margin-top: 10px;
+   }
+
+   &__card__descr {
+    font-size: 16px;
+    font-weight: 300;
+    color: #0d0d0d;
+    margin-top: 19px;
+    line-height: 1.2;
+   }
+}

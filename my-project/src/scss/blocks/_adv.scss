@@ -1,0 +1,49 @@
+.adv {
+    min-height: 470px;
+    padding: 69px 0 95px 0;
+    background: #f6f6f6;
+
+    &__title {
+        font-size: 30px;
+        line-height: 1.2;
+        font-weight: 700;
+        color: #0d0d0d;
+        text-align: center;
+    }
+
+    &__icons {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 65px;
+        text-align: center;
+
+       
+    }
+
+    &__subtitle {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.2;
+        color: #0d0d0d;
+        margin-top: 38px;
+        margin-bottom: 0;
+    }
+
+    &__subtext {
+        font-size: 14px;
+        line-height: 1.1;
+        font-weight: 300;
+        color: #0d0d0d;
+        max-width: 243px;
+        margin-top: 25px;
+        text-align: center;
+
+        a {
+            color: #ff0000;
+
+            &:hover {
+                color: #ff0000;
+            }
+        }
+    }
+}
